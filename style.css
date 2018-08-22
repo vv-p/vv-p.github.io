@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+    font-size: 120%;
+}
+
+body {
+    text-align: center;
+    vertical-align: middle;
+    min-height: 100%;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.vcard {
+    display: inline-block;
+    padding: 2em;
+    margin-top: 3em;
+    text-align: left;
+    border: 1px solid #eee;
+    position: relative;
+}
+
+.vcard div,
+.vcard a {
+    display: block;
+}
+
+.vcard .fn {
+    font-size: 120%;
+}
